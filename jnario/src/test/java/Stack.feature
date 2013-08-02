@@ -9,7 +9,7 @@ Feature: Stack
         Scenario: Basic functionality of a Stack
         val stack = new Stack()
         Given an empty stack
-          stack.size() => 0
+        stack.size() => 0
         When the string "Java" is added
         stack.push(args.first)
         And the string "C++" is added
