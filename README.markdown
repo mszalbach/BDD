@@ -9,3 +9,5 @@ At the moment I have examples for:
 *   [Jnario](http://jnario.org/)
 *   [Spock](https://code.google.com/p/spock/)
 *   [Thucydides](http://thucydides.info/)
+
+Note: When running all examples at once the build failes with ?java.lang.OutOfMemoryError: PermGen space? error.
