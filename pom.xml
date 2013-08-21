@@ -17,6 +17,7 @@
         <module>concordion</module>
         <module>cucumber</module>
         <module>jnario</module>
+        <module>thucydides</module>
     </modules>
 
 </project>

@@ -8,3 +8,4 @@ At the moment I have examples for:
 *   [JBehave](http://jbehave.org/)
 *   [Jnario](http://jnario.org/)
 *   [Spock](https://code.google.com/p/spock/)
+*   [Thucydides](http://thucydides.info/)
