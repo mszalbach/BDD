@@ -15,7 +15,8 @@
     <artifactId>thucydides</artifactId>
 
     <properties>
-        <thucydides.version>0.9.204</thucydides.version>
+        <thucydides.version>0.9.210</thucydides.version>
+        <thucydides-jbehave.version>0.9.205</thucydides-jbehave.version>
     </properties>
 
     <build>
@@ -47,7 +48,7 @@
         <dependency>
             <groupId>net.thucydides</groupId>
             <artifactId>thucydides-jbehave-plugin</artifactId>
-            <version>${thucydides.version}</version>
+            <version>${thucydides-jbehave.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
