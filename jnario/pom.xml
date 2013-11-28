@@ -16,7 +16,7 @@
 
     <properties>
 
-        <jnario.version>0.5.1</jnario.version>
+        <jnario.version>0.6.1</jnario.version>
     </properties>
 
     <dependencies>
