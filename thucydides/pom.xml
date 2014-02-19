@@ -15,8 +15,8 @@
     <artifactId>thucydides</artifactId>
 
     <properties>
-        <thucydides.version>0.9.210</thucydides.version>
-        <thucydides-jbehave.version>0.9.205</thucydides-jbehave.version>
+        <thucydides.version>0.9.232</thucydides.version>
+        <thucydides-jbehave.version>0.9.230</thucydides-jbehave.version>
     </properties>
 
     <build>

@@ -13,12 +13,16 @@
     <groupId>com.macd.bdd</groupId>
     <artifactId>jbehave</artifactId>
 
+    <properties>
+        <jbehave.version>3.9</jbehave.version>
+    </properties>
+
 
     <dependencies>
         <dependency>
             <groupId>org.jbehave</groupId>
             <artifactId>jbehave-core</artifactId>
-            <version>3.9-beta-3</version>
+            <version>${jbehave.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -40,7 +44,7 @@
             <plugin>
                 <groupId>org.jbehave</groupId>
                 <artifactId>jbehave-maven-plugin</artifactId>
-                <version>3.9-beta-1</version>
+                <version>${jbehave.version}</version>
                 <executions>
                     <execution>
                         <id>run-stories-as-embeddables</id>
