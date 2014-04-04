@@ -8,6 +8,3 @@ At the moment I have examples for:
 *   [JBehave](http://jbehave.org/)
 *   [Jnario](http://jnario.org/)
 *   [Spock](https://code.google.com/p/spock/)
-*   [Thucydides](http://thucydides.info/)
-
-Note Thucydides did not work always correctly when build together with all other modules. But it can run on its own.

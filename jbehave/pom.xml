@@ -14,7 +14,7 @@
     <artifactId>jbehave</artifactId>
 
     <properties>
-        <jbehave.version>3.9</jbehave.version>
+        <jbehave.version>3.9.1</jbehave.version>
     </properties>
 
 
