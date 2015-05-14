@@ -1,4 +1,5 @@
 # Introduction
+![Travis](https://travis-ci.org/mszalbach/BDD.svg?branch=master)
 
 This is an example project showing how to use BDD frameworks with Maven.
 At the moment I have examples for:
