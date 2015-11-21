@@ -14,7 +14,7 @@
     <artifactId>jbehave</artifactId>
 
     <properties>
-        <jbehave.version>4.0-beta-11</jbehave.version>
+        <jbehave.version>4.0.4</jbehave.version>
     </properties>
 
 
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.jbehave.site</groupId>
             <artifactId>jbehave-site-resources</artifactId>
-            <version>3.2</version>
+            <version>3.3</version>
             <type>zip</type>
         </dependency>
         <dependency>

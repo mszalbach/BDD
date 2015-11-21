@@ -14,21 +14,19 @@
     <artifactId>cucumber</artifactId>
 
     <properties>
-        <cucumber.version>1.2.2</cucumber.version>
+        <cucumber.version>1.2.4</cucumber.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>info.cukes</groupId>
-            <artifactId>cucumber-picocontainer</artifactId>
+            <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
+            <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
