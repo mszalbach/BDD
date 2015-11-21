@@ -16,13 +16,14 @@
 
     <properties>
 
-        <jnario.version>0.7.5</jnario.version>
+        <jnario.version>1.0.0</jnario.version>
+        <jnario.report.version>1.0.1</jnario.report.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.jnario</groupId>
-            <artifactId>org.jnario.lib.maven</artifactId>
+            <artifactId>org.jnario.lib</artifactId>
             <version>${jnario.version}</version>
             <scope>test</scope>
         </dependency>
@@ -45,7 +46,7 @@
             <plugin>
                 <groupId>org.jnario</groupId>
                 <artifactId>report</artifactId>
-                <version>${jnario.version}</version>
+                <version>${jnario.report.version}</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
