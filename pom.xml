@@ -26,6 +26,7 @@
         <module>concordion</module>
         <module>cucumber</module>
         <module>jnario</module>
+        <module>serenity</module>
     </modules>
 
     <build>
