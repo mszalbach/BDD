@@ -13,8 +13,8 @@
     <artifactId>serenity</artifactId>
 
     <properties>
-        <serenity.version>1.2.1-rc.6</serenity.version>
-        <serenity.cucumber.version>1.1.13</serenity.cucumber.version>
+        <serenity.version>1.2.2</serenity.version>
+        <serenity.cucumber.version>1.1.23</serenity.cucumber.version>
     </properties>
 
     <build>
@@ -50,7 +50,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.21</version>
+            <version>1.7.22</version>
         </dependency>
     </dependencies>
 
