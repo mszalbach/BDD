@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
  * @author marcel
  *         Date: 25.05.13
  */
-@RunWith(Cucumber.class)
-@CucumberOptions(format = { "progress", "json:target/cucumber.json", "html:target/cucumber" })
+@RunWith( Cucumber.class )
+@CucumberOptions( format = { "progress", "json:target/cucumber.json", "html:target/cucumber" } )
 public class RunCukesTest {
+
 }

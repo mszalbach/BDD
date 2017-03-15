@@ -13,12 +13,12 @@ import java.util.Stack;
 @RunWith( ConcordionRunner.class )
 public class StackScenarioTest {
 
-    Stack stack;
+    private Stack<String> stack;
 
 
 
     public void emptyStack() {
-        stack = new Stack();
+        stack = new Stack<>();
     }
 
 
@@ -30,7 +30,7 @@ public class StackScenarioTest {
 
 
     public String pop() {
-        return ( String )stack.pop();
+        return stack.pop();
     }
 
 

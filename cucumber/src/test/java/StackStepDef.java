@@ -19,14 +19,14 @@ import java.util.Stack;
  */
 public class StackStepDef {
 
-    private Stack  testStack;
-    private String searchElement;
+    private Stack<String> testStack;
+    private String        searchElement;
 
 
 
     @Given( "^an empty stack$" )
     public void anEmptyStack() {
-        testStack = new Stack();
+        testStack = new Stack<>();
     }
 
 

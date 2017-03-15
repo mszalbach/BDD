@@ -34,7 +34,7 @@ public class JBehaveScenarios
 
     public JBehaveScenarios() {
         configuredEmbedder().embedderControls().doGenerateViewAfterStories( true ).doIgnoreFailureInStories( true )
-                .doIgnoreFailureInView( true ).useThreads( 2 ).useStoryTimeoutInSecs( 60 );
+                            .doIgnoreFailureInView( true ).useThreads( 2 ).useStoryTimeoutInSecs( 60 );
         // Uncomment to set meta filter, which can also be set via Ant or Maven
         // configuredEmbedder().useMetaFilters(Arrays.asList("+theme parametrisation"));
     }

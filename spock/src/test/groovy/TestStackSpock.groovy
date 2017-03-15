@@ -1,3 +1,5 @@
+import spock.lang.Specification
+
 /**
  * Created with IntelliJ IDEA.
  * User: ms
@@ -5,10 +7,11 @@
  * Time: 8:47 AM
  * To change this template use File | Settings | File Templates.
  */
-class TestStackSpock extends spock.lang.Specification {
+class TestStackSpock
+        extends Specification {
 
 
-  def "Basic functionality of a Stack"( ) {
+  def "Basic functionality of a Stack"() {
     given: "Given an empty stack"
     def stack = new Stack()
 
@@ -26,7 +29,7 @@ class TestStackSpock extends spock.lang.Specification {
 
 
 
-  def "Stack search"( ) {
+  def "Stack search"() {
 
     println "Hallo"
     given: "an empty stack"
@@ -46,7 +49,7 @@ class TestStackSpock extends spock.lang.Specification {
 
 
 
-  def "pop from empty Stack"( ) {
+  def "pop from empty Stack"() {
     given: "an empty stack"
     def stack = new Stack()
     when: "the last element should be removed"

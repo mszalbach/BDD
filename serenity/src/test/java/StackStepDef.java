@@ -4,7 +4,11 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Stack;
 
 /**
  * COPYRIGHT (C) 2013 Marcel Szalbach. All Rights Reserved.

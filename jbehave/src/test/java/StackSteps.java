@@ -20,12 +20,12 @@ import java.util.Stack;
 public class StackSteps
         extends Embedder {
 
-    private Stack  testStack;
-    private String searchElement;
+    private Stack<String> testStack;
+    private String        searchElement;
 
 
 
-    @Given("an empty stack")
+    @Given( "an empty stack" )
     public void anEmptyStack() {
         testStack = new Stack();
     }
@@ -47,35 +47,35 @@ public class StackSteps
 
 
 
-    @When("the string $element is added")
+    @When( "the string $element is added" )
     public void anElementIsAdded( String element ) {
         testStack.push( element );
     }
 
 
 
-    @When("the last element is removed again")
+    @When( "the last element is removed again" )
     public void removeLastElement() {
         testStack.pop();
     }
 
 
 
-    @When("the element $element is searched for")
+    @When( "the element $element is searched for" )
     public void searchForElement( String element ) {
         searchElement = element;
     }
 
 
 
-    @Then("the resulting element should be $result")
+    @Then( "the resulting element should be $result" )
     public void theResultingElementShouldBe( String result ) {
         Assert.assertEquals( testStack.pop(), result );
     }
 
 
 
-    @Then("the position returned should be $pos")
+    @Then( "the position returned should be $pos" )
     public void thePositionReturnedShouldBe( int pos ) {
         Assert.assertEquals( testStack.search( searchElement ), pos );
     }
