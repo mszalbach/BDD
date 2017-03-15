@@ -9,4 +9,4 @@ At the moment I have examples for:
 *   [JBehave](http://jbehave.org/)
 *   [Jnario](http://jnario.org/) (last version from 2014, maybe remove as not supported anymore)
 *   [Spock](https://code.google.com/p/spock/)
-*   [Serenity] (http://thucydides.info/)
+*   [Serenity](http://thucydides.info/)
