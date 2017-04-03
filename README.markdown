@@ -1,5 +1,5 @@
 # Introduction
-[![Build Status](https://travis-ci.org/mszalbach/BDD.svg?branch=master)](https://travis-ci.org/mszalbach/BDD)
+[![Build Status](https://circleci.com/gh/mszalbach/BDD.svg?style=svg)](https://circleci.com/gh/mszalbach/BDD)
 
 This is an example project showing how to use BDD frameworks with Maven.
 At the moment I have examples for:
