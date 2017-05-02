@@ -27,7 +27,7 @@ public class StackSteps
 
     @Given( "an empty stack" )
     public void anEmptyStack() {
-        testStack = new Stack();
+        testStack = new Stack<>();
     }
 
 
