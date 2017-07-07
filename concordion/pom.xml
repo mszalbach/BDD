@@ -18,6 +18,7 @@
             <groupId>org.concordion</groupId>
             <artifactId>concordion</artifactId>
             <version>2.1.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
