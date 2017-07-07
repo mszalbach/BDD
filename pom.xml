@@ -35,6 +35,7 @@
         <module>concordion</module>
         <module>cucumber</module>
         <module>serenity</module>
+        <module>jgiven</module>
     </modules>
 
     <build>
