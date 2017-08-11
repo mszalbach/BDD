@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.jbehave.site</groupId>
             <artifactId>jbehave-site-resources</artifactId>
-            <version>3.3</version>
+            <version>3.3.1</version>
             <type>zip</type>
         </dependency>
         <dependency>
