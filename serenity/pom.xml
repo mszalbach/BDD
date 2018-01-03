@@ -13,8 +13,8 @@
     <artifactId>serenity</artifactId>
 
     <properties>
-        <serenity.version>1.8.1</serenity.version>
-        <serenity.cucumber.version>1.6.5</serenity.cucumber.version>
+        <serenity.version>1.8.19</serenity.version>
+        <serenity.cucumber.version>1.6.9</serenity.cucumber.version>
     </properties>
 
     <build>
