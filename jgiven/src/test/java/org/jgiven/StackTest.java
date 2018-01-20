@@ -1,3 +1,5 @@
+package org.jgiven;
+
 import com.tngtech.jgiven.junit.ScenarioTest;
 import org.junit.Test;
 
