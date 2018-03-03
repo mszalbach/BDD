@@ -6,6 +6,3 @@
 # Maven
 log/
 target/
-*.iml
-.idea
-.mvn/
