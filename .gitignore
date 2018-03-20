@@ -6,5 +6,6 @@
 # Maven
 log/
 target/
-*.iml
-.idea
+
+# JGiven
+jgiven/jgiven-reports/
