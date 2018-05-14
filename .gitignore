@@ -9,3 +9,6 @@ target/
 
 # JGiven
 jgiven/jgiven-reports/
+
+# Spock
+build/
