@@ -13,7 +13,7 @@
     <artifactId>serenity</artifactId>
 
     <properties>
-        <serenity.version>1.9.16</serenity.version>
+        <serenity.version>1.9.19</serenity.version>
         <serenity.cucumber.version>1.9.7</serenity.cucumber.version>
     </properties>
 
