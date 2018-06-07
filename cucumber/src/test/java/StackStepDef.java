@@ -1,7 +1,7 @@
-import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.cucumber.datatable.DataTable;
 import org.junit.Assert;
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.Stack;
  * Created with IntelliJ IDEA.
  *
  * @author marcel
- *         Date: 25.05.13
+ * Date: 25.05.13
  */
 public class StackStepDef {
 
@@ -82,11 +82,13 @@ public class StackStepDef {
 
 
 
-    @Given( "^a stack with the elements \"(.+)\"$" )
+    @Given( "^a stack with the elements$" )
     public void stackInitWithList( List<String> elements ) {
         anEmptyStack();
-        Collections.reverse( elements );
-        for ( String element : elements ) {
+        //DataTable list is immutable
+        List<String> mutableElements = new ArrayList<>( elements );
+        Collections.reverse( mutableElements );
+        for ( String element : mutableElements ) {
             testStack.push( element );
         }
     }
