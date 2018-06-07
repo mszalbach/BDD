@@ -82,11 +82,13 @@ public class StackStepDef {
 
 
 
-    @Given( "^a stack with the elements \"(.+)\"$" )
+    @Given( "^a stack with the elements$" )
     public void stackInitWithList( List<String> elements ) {
         anEmptyStack();
-        Collections.reverse( elements );
-        for ( String element : elements ) {
+        //DataTable list is immutable
+        List<String> mutableElements = new ArrayList<>( elements );
+        Collections.reverse( mutableElements );
+        for ( String element : mutableElements ) {
             testStack.push( element );
         }
     }

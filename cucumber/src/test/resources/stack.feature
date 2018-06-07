@@ -30,6 +30,9 @@ Feature: Implementing a stack
     Then the position returned should be 1
 
   Scenario: Stack init with list
-    Given a stack with the elements "Java, C++, PHP"
+    Given a stack with the elements
+    |Java |
+    | C++ |
+    | PHP |
     When the element Java is searched for
     Then the position returned should be 1
