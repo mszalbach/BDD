@@ -10,6 +10,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <properties>
+        <spock-core.version>1.1-groovy-2.4</spock-core.version>
+        <spock-reports.version>1.6.0</spock-reports.version>
+        <groovy-all.version>2.4.15</groovy-all.version>
+    </properties>
+
     <artifactId>spock</artifactId>
 
     <build>
@@ -34,13 +40,13 @@
         <dependency>
             <groupId>org.spockframework</groupId>
             <artifactId>spock-core</artifactId>
-            <version>1.1-groovy-2.4</version>
+            <version>${spock-core.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.athaydes</groupId>
             <artifactId>spock-reports</artifactId>
-            <version>1.6.0</version>
+            <version>${spock-reports.version}</version>
             <scope>test</scope>
             <!-- this avoids affecting your version of Groovy/Spock -->
             <exclusions>
@@ -53,7 +59,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>2.4.15</version>
+            <version>${groovy-all.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
