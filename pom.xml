@@ -10,8 +10,8 @@
     <properties>
         <junit.version>4.12</junit.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
-        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+        <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
     </properties>
     <packaging>pom</packaging>
 

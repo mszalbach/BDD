@@ -13,7 +13,7 @@
     <artifactId>concordion</artifactId>
 
     <properties>
-        <concordion.version>2.1.3</concordion.version>
+        <concordion.version>2.2.0</concordion.version>
     </properties>
 
 

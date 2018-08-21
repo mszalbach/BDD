@@ -13,7 +13,7 @@
     <artifactId>jbehave</artifactId>
 
     <properties>
-        <jbehave.version>4.3.3</jbehave.version>
+        <jbehave.version>4.3.5</jbehave.version>
         <jbehave-site-resources.version>3.3.1</jbehave-site-resources.version>
     </properties>
 
