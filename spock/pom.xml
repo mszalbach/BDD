@@ -12,8 +12,9 @@
 
     <properties>
         <spock-core.version>1.1-groovy-2.4</spock-core.version>
-        <spock-reports.version>1.6.0</spock-reports.version>
+        <spock-reports.version>${gmavenplus-plugin.version}.0</spock-reports.version>
         <groovy-all.version>2.4.15</groovy-all.version>
+        <gmavenplus-plugin.version>1.6</gmavenplus-plugin.version>
     </properties>
 
     <artifactId>spock</artifactId>
@@ -23,7 +24,7 @@
             <plugin>
                 <groupId>org.codehaus.gmavenplus</groupId>
                 <artifactId>gmavenplus-plugin</artifactId>
-                <version>1.6</version>
+                <version>${gmavenplus-plugin.version}</version>
                 <executions>
                     <execution>
                         <goals>
