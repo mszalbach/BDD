@@ -14,7 +14,7 @@
 
     <properties>
         <serenity.version>2.0.18</serenity.version>
-        <serenity.core.version>2.0.18</serenity.core.version>
+        <serenity.core.version>2.0.19</serenity.core.version>
         <serenity.cucumber.version>1.9.20</serenity.cucumber.version>
     </properties>
 
