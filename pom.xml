@@ -32,7 +32,7 @@
 
     <modules>
         <module>jbehave</module>
-        <module>spock</module>
+        <!--<module>spock</module>-->
         <module>concordion</module>
         <module>cucumber</module>
         <module>serenity</module>

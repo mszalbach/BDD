@@ -8,6 +8,6 @@ At the moment I have examples for:
 *   [Cucumber](http://cukes.info/)
 *   [JBehave](http://jbehave.org/)
 *   [JGiven](http://jgiven.org/)
-*   [Spock](https://code.google.com/p/spock/)
+*   [Spock](https://code.google.com/p/spock/) - currently disabled
 *   [Serenity](http://thucydides.info/)
 
