@@ -13,9 +13,9 @@
     <artifactId>serenity</artifactId>
 
     <properties>
-        <serenity.version>2.0.2</serenity.version>
-        <serenity.core.version>2.0.3</serenity.core.version>
-        <serenity.cucumber.version>1.9.14</serenity.cucumber.version>
+        <serenity.version>2.0.18</serenity.version>
+        <serenity.core.version>2.0.18</serenity.core.version>
+        <serenity.cucumber.version>1.9.20</serenity.cucumber.version>
     </properties>
 
     <build>

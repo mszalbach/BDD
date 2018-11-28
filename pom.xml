@@ -32,7 +32,7 @@
 
     <modules>
         <module>jbehave</module>
-        <module>spock</module>
+        <!--<module>spock</module>-->
         <module>concordion</module>
         <module>cucumber</module>
         <module>serenity</module>
@@ -47,7 +47,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin.version}</version>
                     <configuration>
-                        <release>10</release>
+                        <release>11</release>
                     </configuration>
                 </plugin>
                 <plugin>

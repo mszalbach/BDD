@@ -13,8 +13,8 @@
     <properties>
         <spock-core.version>1.2-groovy-2.5</spock-core.version>
         <spock-reports.version>1.6.1</spock-reports.version>
-        <groovy-all.version>2.5.2</groovy-all.version>
-        <gmavenplus-plugin.version>1.6.1</gmavenplus-plugin.version>
+        <groovy-all.version>2.5.4</groovy-all.version>
+        <gmavenplus-plugin.version>1.6.2</gmavenplus-plugin.version>
     </properties>
 
     <artifactId>spock</artifactId>
