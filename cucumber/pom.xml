@@ -13,7 +13,7 @@
     <artifactId>cucumber</artifactId>
 
     <properties>
-        <cucumber.version>4.2.0</cucumber.version>
+        <cucumber.version>5.4.1</cucumber.version>
     </properties>
 
     <dependencies>
