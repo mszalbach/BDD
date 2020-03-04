@@ -13,9 +13,8 @@
     <artifactId>serenity</artifactId>
 
     <properties>
-        <serenity.version>2.0.18</serenity.version>
-        <serenity.core.version>2.0.19</serenity.core.version>
-        <serenity.cucumber.version>1.9.20</serenity.cucumber.version>
+        <serenity.version>2.0.41</serenity.version>
+        <serenity.cucumber.version>1.9.38</serenity.cucumber.version>
     </properties>
 
     <build>
@@ -41,7 +40,7 @@
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
-            <version>${serenity.core.version}</version>
+            <version>${serenity.version}</version>
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
