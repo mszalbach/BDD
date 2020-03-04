@@ -8,6 +8,8 @@
     <artifactId>bdd-test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <junit.version>4.12</junit.version>
         <slf4j-simple.version>1.7.30</slf4j-simple.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
