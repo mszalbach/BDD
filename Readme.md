@@ -1,5 +1,5 @@
 # Introduction
-![Build Status](https://github.com/mszalbach/BDD/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Build Status](https://github.com/mszalbach/BDD/workflows/Build/badge.svg)
 
 This is an example project showing how to use BDD frameworks with Maven.
 At the moment I have examples for:
