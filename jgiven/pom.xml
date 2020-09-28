@@ -13,7 +13,7 @@
     <artifactId>jgiven</artifactId>
 
     <properties>
-        <jgiven.version>0.18.2</jgiven.version>
+        <jgiven.version>1.0.0-RC5</jgiven.version>
     </properties>
 
     <build>

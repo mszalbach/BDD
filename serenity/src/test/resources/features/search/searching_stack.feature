@@ -21,6 +21,10 @@ Feature: Searching items in a stack
     Then the position returned should be 1
 
   Scenario: Stack init with list
-    Given a stack with the elements "Java,C++,PHP"
+    Given the stack elements are:
+      | element |
+      | Java    |
+      | C++     |
+      | PHP     |
     When the element Java is searched for
     Then the position returned should be 1
