@@ -15,6 +15,7 @@ pipeline {
                     cucumber buildStatus: 'UNSTABLE',
                             reportTitle: 'Cucumber report',
                             fileIncludePattern: '**/cucumber.json'
+                    livingDocs(featuresDir:'cucumber\target')
                 }
             }
         }
