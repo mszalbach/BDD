@@ -12,11 +12,9 @@ pipeline {
             }
             always {
                 cucumber buildStatus: 'UNSTABLE',
-                                reportTitle: 'Cucumber report',
-                                fileIncludePattern: '**/cucumber.json'
-                    }
+                        reportTitle: 'Cucumber report',
+                        fileIncludePattern: '**/cucumber.json'
             }
-
         }
     }
 }
