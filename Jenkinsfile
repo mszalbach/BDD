@@ -12,10 +12,10 @@ pipeline {
             }
             post {
                 always {
-                    cucumber (buildStatus: 'UNSTABLE',
-                              reportTitle: 'Cucumber report',
+                    cucumber(buildStatus: 'UNSTABLE',
+                            reportTitle: 'Cucumber report',
                             fileIncludePattern: '**/cucumber.json')
-                    livingDocs(featuresDir:'cucumber\target\cukedoctor')
+                    livingDocs(featuresDir: 'cucumber/target/cukedoctor')
                 }
             }
         }
