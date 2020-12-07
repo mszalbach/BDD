@@ -16,6 +16,24 @@
         <cucumber.version>6.8.0</cucumber.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.cukedoctor</groupId>
+                <artifactId>cukedoctor-maven-plugin</artifactId>
+                <version>3.5.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -31,5 +49,5 @@
         </dependency>
     </dependencies>
 
-    
+
 </project>
