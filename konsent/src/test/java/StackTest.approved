@@ -1,0 +1,8 @@
+Feature: Stack Test
+    As a developer named Marcel
+    I want to know that the Java stack is working
+
+    Scenario: Basic functionality of a Stack
+        Given Marcel  has an empty stack"
+        When he adds the element "Java"
+        Then he sees the top element is equal to "Java"

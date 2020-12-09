@@ -39,6 +39,7 @@
         <module>cucumber</module>
         <module>serenity</module>
         <module>jgiven</module>
+        <module>konsent</module>
     </modules>
 
     <build>

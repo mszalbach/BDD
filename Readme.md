@@ -8,6 +8,7 @@ At the moment I have examples for:
 *   [Cucumber](http://cukes.info/)
 *   [JBehave](http://jbehave.org/)
 *   [JGiven](http://jgiven.org/)
+*   [Konsent](https://github.com/dmcg/konsent)
 *   [Spock](https://code.google.com/p/spock/)
 *   [Serenity](http://thucydides.info/)
 
